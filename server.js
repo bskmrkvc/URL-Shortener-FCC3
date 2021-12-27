@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 const dns = require('dns');
 const urlparser = require('url');
-const uri = "mongodb+srv://bxskx:Bolence0@cluster0.oc5hm.mongodb.net/urlshortener?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bxskx:<pw>@cluster0.oc5hm.mongodb.net/urlshortener?retryWrites=true&w=majority";
 
 // Basic Configuration
 const port = process.env.PORT || 3000;
